@@ -96,7 +96,7 @@ export default class City extends Component {
         </Entity>
         <Entity
           material={{ color: '#000' }}
-          text={{ value: 'Hei!!! Se på lyspæra!!', color: '#444', align: 'center', width: 20 }}
+          text={{ value: 'Haakon!!! Se paa lyset!!', color: '#444', align: 'center', width: 20 }}
           position={[1, 3, -5]}
         />
       </Scene>
