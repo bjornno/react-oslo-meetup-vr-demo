@@ -28,7 +28,7 @@ const Oslo = () =>
     />
     <Entity
       material={{ color: '#000' }}
-      text={{ value: 'Welcome to APT', color: '#000', align: 'center', width: 40 }}
+      text={{ value: 'That is just awesome!!', color: '#000', align: 'center', width: 40 }}
       position={[0, 4, -10]}
     />
   </Scene>;

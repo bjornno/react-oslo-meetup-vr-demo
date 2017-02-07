@@ -48,7 +48,7 @@ export default class City extends Component {
     const { intensity } = this.state;
 
     const newIntensity = intensity ? 0 : 1;
-
+    // todo: do something irl, hue light, spark message or something?
     this.setState({
       intensity: newIntensity,
     });
@@ -94,6 +94,11 @@ export default class City extends Component {
             <Entity animation={{ property: 'light.intensity', from: 1, to: 0.2, loop: true, dir: 'alternate', dur: 1000 }} />
           }
         </Entity>
+        <Entity
+          material={{ color: '#000' }}
+          text={{ value: 'Hei!!! Se på lyspæra!!', color: '#444', align: 'center', width: 20 }}
+          position={[1, 3, -5]}
+        />
       </Scene>
     );
   }
